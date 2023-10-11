@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passkit-The all in one password manager</title>
+    <link rel="stylesheet" href="passstyle.css">
+
+</head>
+<body>
+    <nav>
+        <div class="logo">Passkit</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact us</li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+        <h1>Password manager</h1>
+        <p><b>Welcome to Passkit - Your Secure Password Manager</b></p>
+        <p>Are you tired of juggling multiple passwords for your online accounts? Say goodbye to the hassle of forgotten passwords and insecure note-keeping. Welcome to Passkit, your trusted companion for password management.</p>
+        <p>Passkit is here to simplify your digital life. With Passkit, you can securely store, organize, and access all your passwords from one central hub. Our top priority is your online security, and we've designed Passkit with that in mind.</p>
+        <h2>Your Passwords <span id="alert">(Copied!)</span></h2> 
+        
+        <table>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Delete</th>
+            </tr>      
+               
+
+        </table>
+        <h2>Add a password</h2>
+
+        <form action="/submit" method="post">
+            <!-- Text input for Website -->
+            <label for="website">Website:</label>
+            <input type="text" id="website" name="website" required>
+            <br><br>
+            
+            
+         <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br><br>
+        
+            
+            <!-- Submit button -->
+            <input type="submit" value="Submit" class="btn">
+          </form>
+    </div>
+    <script src="passscript.js"></script>
+
+
+</body>
+</html>
