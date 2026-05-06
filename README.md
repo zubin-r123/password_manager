@@ -1,10 +1,33 @@
-# password_manager
-password manager to store login credentials for various websites
+# Password Manager
 
-In this password manager a table is created which stored passwords from all your favourite websites!!
-It has a copy feature so you never have to remember your passwords again
+A lightweight browser-based password manager built with JavaScript.
+Allows users to store, view, and manage login credentials for 
+multiple websites in one place.
 
+---
 
-**please note this is a mini project that does not provide encription facility and it is only representational
-however it can be used personally on local desktops
-thanks
+## Features
+
+- Store login credentials (username + password) per website
+- View and retrieve saved credentials
+- Simple, clean interface built with vanilla JavaScript
+
+---
+
+## Built With
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+
+---
+
+## Status
+
+🗂️ Completed personal project — not actively maintained.
+
+---
+
+## Note
+
+This was an early personal project. For my current work in 
+data analytics and AI engineering, see the pinned repositories 
+on my profile.
